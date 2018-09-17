@@ -1,0 +1,15 @@
+Index: .idea/typescript-compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/typescript-compiler.xml	(date 1537208344386)
++++ .idea/typescript-compiler.xml	(date 1537208344386)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="TypeScriptCompiler">
++    <option name="recompileOnChanges" value="true" />
++  </component>
++</project>
+\ No newline at end of file
