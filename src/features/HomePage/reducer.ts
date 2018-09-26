@@ -1,11 +1,12 @@
-import { ExamineActions } from './types'
+import { HomePageActions } from './types'
 import { initialState, ACTIONS } from './constants'
 
-export const examinePageReducer = (state = initialState, action: ExamineActions) => {
+export const homePageReducer = (state = initialState, action: HomePageActions) => {
     switch (action.type) {
-        case ACTIONS.EXAMINE_TEST_END:
+        case ACTIONS.EXAMINE_TEST_START:
             return {
-                ...state
+                ...state,
+                colors: action.payload.pickedColors
             }
         default:
             return state

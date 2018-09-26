@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { RouteComponentProps } from 'react-router'
 import styled from 'styled-components'
 import { ColorType, RootReducer, Dispatch } from 'types'
+import { history } from 'lib/router'
 import { homePageActions } from './actions'
 import { Buttons, ColorPicker, Colors } from './sections'
 
@@ -30,6 +31,7 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
         this.onColorChange = this.onColorChange.bind(this)
         this.showColorPicker = this.showColorPicker.bind(this)
         this.onColorClick = this.onColorClick.bind(this)
+        this.onTestBegin = this.onTestBegin.bind(this)
     }
 
     onColorChange(color: ColorType) {
@@ -60,10 +62,22 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
         })
     }
 
+    onTestBegin() {
+        if (this.state.pickedColors.length > 1) {
+            this.props.onTestStart(this.state.pickedColors)
+            history.push('/test')
+        }
+
+        if (this.state.pickedColors.length < 2) {
+            alert('proszę wybrać przynajmniej 2 kolory')
+        }
+    }
+
     render() {
         return (
             <Wrapper>
                 <Buttons
+                    onTestBegin={this.onTestBegin}
                     showColorPicker={this.showColorPicker}
                 />
                 <Colors
