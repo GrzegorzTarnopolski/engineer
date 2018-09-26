@@ -4,6 +4,7 @@ import { ConnectedRouter } from 'react-router-redux'
 import styled from 'styled-components'
 import { history } from 'lib/router'
 import { HomePage } from './HomePage'
+import { ExaminePage } from './ExaminePage'
 
 type RouterProps = {}
 
@@ -15,6 +16,11 @@ export const Router: React.StatelessComponent<RouterProps> = props => (
                     exact
                     path="/"
                     component={HomePage}
+                />
+                <Route
+                    exact
+                    path="/test"
+                    component={ExaminePage}
                 />
             </Switch>
         </Main>

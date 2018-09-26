@@ -11,7 +11,7 @@ type HomePageState = {
     colorPickerShown: boolean
 }
 
-export class HomePage extends React.Component<HomePageProps> {
+export class HomePage extends React.Component<HomePageProps, HomePageState> {
     state: HomePageState = {
         color: '',
         colorPickerShown: false,
@@ -23,6 +23,7 @@ export class HomePage extends React.Component<HomePageProps> {
 
         this.onColorChange = this.onColorChange.bind(this)
         this.showColorPicker = this.showColorPicker.bind(this)
+        this.onColorClick = this.onColorClick.bind(this)
     }
 
     onColorChange(color: ColorType) {
@@ -34,8 +35,16 @@ export class HomePage extends React.Component<HomePageProps> {
         }
 
         this.setState({
-            color,
+            color: color.hex,
             colorPickerShown: false
+        })
+    }
+
+    onColorClick(color: string) {
+        const newArray = this.state.pickedColors.filter(value => value !== color)
+
+        this.setState({
+            pickedColors: newArray
         })
     }
 
@@ -47,16 +56,13 @@ export class HomePage extends React.Component<HomePageProps> {
 
     render() {
         return (
-            <Wrapper
-                style={{
-                    backgroundColor: this.state.color
-                }}
-            >
+            <Wrapper>
                 <Buttons
                     showColorPicker={this.showColorPicker}
                 />
                 <Colors
                     colors={this.state.pickedColors}
+                    onColorClick={this.onColorClick}
                 />
                 <ColorPicker
                     color={this.state.color}
