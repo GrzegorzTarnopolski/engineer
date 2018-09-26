@@ -1,12 +1,12 @@
 import { HomePageReducer, HomePageActions } from './types'
-import { examinePageReducer } from './reducer'
-import { HomePage } from './HomePage'
+import { homePageReducer } from './reducer'
+import HomePage from './HomePage'
 
 export {
     HomePage,
-    examinePageReducer,
+    homePageReducer,
     HomePageActions,
     HomePageReducer
 }
 
-export default examinePageReducer
+export default homePageReducer
