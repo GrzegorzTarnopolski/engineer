@@ -1,9 +1,15 @@
 import React from 'react'
+import { compose } from 'redux'
+import { connect } from 'react-redux'
+import { RouteComponentProps } from 'react-router'
 import styled from 'styled-components'
-import { ColorType } from 'types'
+import { ColorType, RootReducer, Dispatch } from 'types'
+import { homePageActions } from './actions'
 import { Buttons, ColorPicker, Colors } from './sections'
 
-type HomePageProps = {}
+interface HomePageProps extends RouteComponentProps<{}> {
+    onTestStart: typeof homePageActions.onTestStart
+}
 
 type HomePageState = {
     color: string,
@@ -73,6 +79,17 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
         )
     }
 }
+
+const mapStateToProps = ({}: RootReducer) => ({})
+
+const mapDispatchToProps = (dispatch: Dispatch) => ({
+    onTestStart: compose(dispatch, homePageActions.onTestStart)
+})
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HomePage)
 
 export const Wrapper = styled.div`
   width: 100%;
