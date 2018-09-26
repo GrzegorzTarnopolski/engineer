@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { Color } from '../../components'
 
 type ColorsProps = {
-    colors: Array<string>
+    colors: Array<string>,
+    onColorClick(color: string): void
 }
 
 export const Colors: React.StatelessComponent<ColorsProps> = props => (
@@ -12,6 +13,7 @@ export const Colors: React.StatelessComponent<ColorsProps> = props => (
             <Color
                 key={index}
                 color={value}
+                onColorClick={props.onColorClick}
             />
         )}
     </Wrapper>

@@ -1,9 +1,15 @@
 import React from 'react'
+import { compose } from 'redux'
+import { connect } from 'react-redux'
+import { RouteComponentProps } from 'react-router'
 import styled from 'styled-components'
-import { ColorType } from 'types'
+import { ColorType, RootReducer, Dispatch } from 'types'
+import { homePageActions } from './actions'
 import { Buttons, ColorPicker, Colors } from './sections'
 
-type HomePageProps = {}
+interface HomePageProps extends RouteComponentProps<{}> {
+    onTestStart: typeof homePageActions.onTestStart
+}
 
 type HomePageState = {
     color: string,
@@ -11,7 +17,7 @@ type HomePageState = {
     colorPickerShown: boolean
 }
 
-export class HomePage extends React.Component<HomePageProps> {
+export class HomePage extends React.Component<HomePageProps, HomePageState> {
     state: HomePageState = {
         color: '',
         colorPickerShown: false,
@@ -23,6 +29,7 @@ export class HomePage extends React.Component<HomePageProps> {
 
         this.onColorChange = this.onColorChange.bind(this)
         this.showColorPicker = this.showColorPicker.bind(this)
+        this.onColorClick = this.onColorClick.bind(this)
     }
 
     onColorChange(color: ColorType) {
@@ -34,8 +41,16 @@ export class HomePage extends React.Component<HomePageProps> {
         }
 
         this.setState({
-            color,
+            color: color.hex,
             colorPickerShown: false
+        })
+    }
+
+    onColorClick(color: string) {
+        const newArray = this.state.pickedColors.filter(value => value !== color)
+
+        this.setState({
+            pickedColors: newArray
         })
     }
 
@@ -47,16 +62,13 @@ export class HomePage extends React.Component<HomePageProps> {
 
     render() {
         return (
-            <Wrapper
-                style={{
-                    backgroundColor: this.state.color
-                }}
-            >
+            <Wrapper>
                 <Buttons
                     showColorPicker={this.showColorPicker}
                 />
                 <Colors
                     colors={this.state.pickedColors}
+                    onColorClick={this.onColorClick}
                 />
                 <ColorPicker
                     color={this.state.color}
@@ -67,6 +79,17 @@ export class HomePage extends React.Component<HomePageProps> {
         )
     }
 }
+
+const mapStateToProps = ({}: RootReducer) => ({})
+
+const mapDispatchToProps = (dispatch: Dispatch) => ({
+    onTestStart: compose(dispatch, homePageActions.onTestStart)
+})
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HomePage)
 
 export const Wrapper = styled.div`
   width: 100%;
