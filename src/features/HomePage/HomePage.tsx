@@ -15,7 +15,8 @@ interface HomePageProps extends RouteComponentProps<{}> {
 type HomePageState = {
     color: string,
     pickedColors: Array<string>,
-    colorPickerShown: boolean
+    colorPickerShown: boolean,
+    inputValue?: number
 }
 
 export class HomePage extends React.Component<HomePageProps, HomePageState> {
@@ -32,6 +33,7 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
         this.showColorPicker = this.showColorPicker.bind(this)
         this.onColorClick = this.onColorClick.bind(this)
         this.onTestBegin = this.onTestBegin.bind(this)
+        this.onInputValueChange = this.onInputValueChange.bind(this)
     }
 
     onColorChange(color: ColorType) {
@@ -63,8 +65,8 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
     }
 
     onTestBegin() {
-        if (this.state.pickedColors.length > 1) {
-            this.props.onTestStart(this.state.pickedColors)
+        if (this.state.pickedColors.length > 1 && this.state.inputValue) {
+            this.props.onTestStart(this.state.pickedColors, this.state.inputValue)
             history.push('/test')
         }
 
@@ -73,9 +75,18 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
         }
     }
 
+    onInputValueChange(value: string) {
+        this.setState({
+            inputValue: parseInt(value, 10)
+        })
+    }
+
     render() {
         return (
             <Wrapper>
+                <Input
+                    onChange={({ currentTarget }) => this.onInputValueChange(currentTarget.value)}
+                />
                 <Buttons
                     onTestBegin={this.onTestBegin}
                     showColorPicker={this.showColorPicker}
@@ -112,4 +123,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`
+
+export const Input = styled.input`
+  margin: 10px;
 `

@@ -1,6 +1,6 @@
-import { ExamineReducer } from './types'
+import { ExaminePageReducer } from './types'
 
-export const initialState: ExamineReducer = {
+export const initialState: ExaminePageReducer = {
     result: {}
 }
 

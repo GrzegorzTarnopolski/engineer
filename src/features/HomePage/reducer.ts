@@ -6,7 +6,8 @@ export const homePageReducer = (state = initialState, action: HomePageActions) =
         case ACTIONS.EXAMINE_TEST_START:
             return {
                 ...state,
-                colors: action.payload.pickedColors
+                colors: action.payload.pickedColors,
+                time: action.payload.time
             }
         default:
             return state
