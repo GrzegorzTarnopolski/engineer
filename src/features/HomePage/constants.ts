@@ -1,7 +1,8 @@
 import { HomePageReducer } from './types'
 
 export const initialState: HomePageReducer = {
-    colors: []
+    colors: [],
+    time: 0
 }
 
 export enum ACTIONS {

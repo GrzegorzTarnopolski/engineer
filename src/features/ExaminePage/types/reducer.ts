@@ -1,3 +1,3 @@
-export type ExamineReducer = {
+export type ExaminePageReducer = {
     result: {}
 }

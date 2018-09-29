@@ -1,3 +1,4 @@
 export type HomePageReducer = {
-    colors: Array<string>
+    colors: Array<string>,
+    time: number
 }

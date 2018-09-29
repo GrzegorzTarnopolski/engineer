@@ -1,0 +1,1 @@
+export { ColorWithResult } from './ColorWithResult'

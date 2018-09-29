@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { history } from 'lib/router'
 import { HomePage } from './HomePage'
 import { ExaminePage } from './ExaminePage'
+import { ResultPage } from './ResultPage'
 
 type RouterProps = {}
 
@@ -21,6 +22,11 @@ export const Router: React.StatelessComponent<RouterProps> = props => (
                     exact
                     path="/test"
                     component={ExaminePage}
+                />
+                <Route
+                    exact
+                    path="/wynik"
+                    component={ResultPage}
                 />
             </Switch>
         </Main>
