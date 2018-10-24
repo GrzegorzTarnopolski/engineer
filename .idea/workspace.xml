@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74a6f5b0-d73f-4890-a575-7b29ac95dac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/nikol.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ExaminePage/components/ColorWithTimer/ColorWithTimer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ExaminePage/components/ColorWithTimer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ExaminePage/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ResultPage/ResultPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/ResultPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ramda.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ExaminePage/ExaminePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ExaminePage/ExaminePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ExaminePage/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ExaminePage/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ExaminePage/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ExaminePage/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ExaminePage/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ExaminePage/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ExaminePage/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ExaminePage/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/ExaminePage/types/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ExaminePage/types/reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/HomePage/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/HomePage/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/HomePage/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/HomePage/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/HomePage/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/HomePage/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/HomePage/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/HomePage/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/HomePage/types/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/HomePage/types/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/ResultPage/ResultPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/ResultPage/ResultPage.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,16 +20,19 @@
     <session id="-778214468">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,14 +40,14 @@
           <entry key="ColorWithTimer" value="1" />
           <entry key="json" value="15" />
           <entry key="ts" value="192" />
-          <entry key="tsx" value="48" />
+          <entry key="tsx" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="11" />
           <entry key="TypeScript" value="192" />
-          <entry key="TypeScript JSX" value="49" />
+          <entry key="TypeScript JSX" value="54" />
           <entry key="tsconfig" value="4" />
         </counts>
       </usages-collector>
@@ -73,15 +56,15 @@
           <entry key="ColorWithTimer" value="165" />
           <entry key="json" value="36" />
           <entry key="ts" value="1472" />
-          <entry key="tsx" value="9107" />
+          <entry key="tsx" value="9834" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="36" />
-          <entry key="Less" value="111" />
+          <entry key="Less" value="137" />
           <entry key="TypeScript" value="1472" />
-          <entry key="TypeScript JSX" value="9161" />
+          <entry key="TypeScript JSX" value="9862" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -91,8 +74,8 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TsLintLanguageService" value="11" />
-          <entry key="TypeScriptServerServiceImpl" value="11" />
+          <entry key="TsLintLanguageService" value="16" />
+          <entry key="TypeScriptServerServiceImpl" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -102,19 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/features/HomePage/HomePage.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/ExaminePage/ExaminePage.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="525">
               <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -123,23 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/ResultPage/ResultPage.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/ResultPage/components/ColorWithResult.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="378">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -204,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/features/ResultPage/actions.ts" />
         <option value="$PROJECT_DIR$/src/features/ResultPage/types/index.ts" />
         <option value="$PROJECT_DIR$/src/features/ResultPage/index.ts" />
-        <option value="$PROJECT_DIR$/src/features/HomePage/HomePage.tsx" />
         <option value="$PROJECT_DIR$/src/features/ExaminePage/types/reducer.ts" />
         <option value="$PROJECT_DIR$/src/features/ExaminePage/index.ts" />
         <option value="$PROJECT_DIR$/src/types/store.ts" />
@@ -215,9 +173,10 @@
         <option value="$PROJECT_DIR$/src/lib/store/state.ts" />
         <option value="$PROJECT_DIR$/src/features/ResultPage/components/Color.tsx" />
         <option value="$PROJECT_DIR$/src/features/ResultPage/components/index.ts" />
-        <option value="$PROJECT_DIR$/src/features/ResultPage/ResultPage.tsx" />
         <option value="$PROJECT_DIR$/src/features/ExaminePage/ExaminePage.tsx" />
         <option value="$PROJECT_DIR$/src/features/ResultPage/components/ColorWithResult.tsx" />
+        <option value="$PROJECT_DIR$/src/features/HomePage/HomePage.tsx" />
+        <option value="$PROJECT_DIR$/src/features/ResultPage/ResultPage.tsx" />
       </list>
     </option>
   </component>
@@ -238,10 +197,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="336" />
-    <option name="y" value="-25" />
-    <option name="width" value="1194" />
-    <option name="height" value="1040" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -249,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,7 +232,7 @@
               <item name="engineer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="ResultPage" type="462c0819:PsiDirectoryNode" />
+              <item name="ExaminePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="engineer" type="b2602c69:ProjectViewProjectNode" />
@@ -280,13 +240,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="ResultPage" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,16 +304,23 @@
       <workItem from="1538171266183" duration="266000" />
       <workItem from="1538230568554" duration="4459000" />
       <workItem from="1538236847298" duration="10762000" />
+      <workItem from="1538374635708" duration="60000" />
+      <workItem from="1538910918957" duration="152000" />
+      <workItem from="1538975116797" duration="17000" />
+      <workItem from="1538996013584" duration="321000" />
+      <workItem from="1539002464087" duration="595000" />
+      <workItem from="1540398573008" duration="2870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32884000" />
+    <option name="totallyTimeSpent" value="36899000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22405817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17489421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -369,8 +334,8 @@
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4990086" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49834764" visible="true" weight="0.3240469" />
-      <window_info anchor="bottom" x="11" y="299" width="1513" height="225" id="Version Control" order="11" sideWeight="0.50165236" weight="0.45014662" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49834764" weight="0.32127956" />
+      <window_info anchor="bottom" x="11" y="299" width="1513" height="225" id="Version Control" order="11" sideWeight="0.50165236" weight="0.44923505" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,9 +381,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../web-skanerka/src/lib/router/history.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../web-skanerka/src/lib/router/reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -535,13 +497,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/index.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -561,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,58 +527,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ExaminePage/components/ColorWithTimer/ColorWithTimer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/actions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/types/actions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/types/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/types/reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/constants.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/actions.ts" />
+    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/types/actions.ts" />
+    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/types/index.ts" />
+    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/types/reducer.ts" />
+    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/constants.ts" />
+    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/reducer.ts" />
     <entry file="file://$PROJECT_DIR$/src/features/ResultPage/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -634,13 +541,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/store/store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/store/root-reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -650,13 +551,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/router/history.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/router/index.ts">
       <provider selected="true" editor-type-id="text-editor" />
@@ -665,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,19 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/HomePage/HomePage.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,20 +623,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/HomePage/sections/Colors/Colors.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/ResultPage/components/index.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,10 +636,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ExaminePage/ExaminePage.tsx">
+    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/components/ColorWithResult.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/ExaminePage/components/ColorWithTimer/ColorWithTimer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/HomePage/sections/Buttons/Buttons.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/HomePage/HomePage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/ExaminePage/ExaminePage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -781,18 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/ResultPage/ResultPage.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/ResultPage/components/ColorWithResult.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="378">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

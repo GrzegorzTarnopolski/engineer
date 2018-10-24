@@ -84,6 +84,9 @@ export class HomePage extends React.Component<HomePageProps, HomePageState> {
     render() {
         return (
             <Wrapper>
+                <TextWrapper>
+                    Proszę podać czas trwania testu w sekundach
+                </TextWrapper>
                 <Input
                     onChange={({ currentTarget }) => this.onInputValueChange(currentTarget.value)}
                 />
@@ -117,14 +120,23 @@ export default connect(
 )(HomePage)
 
 export const Wrapper = styled.div`
-  width: 100%;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 export const Input = styled.input`
-  margin: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    text-align: center;
+`
+
+export const TextWrapper = styled.div`
+    margin-top: 15px;
 `
