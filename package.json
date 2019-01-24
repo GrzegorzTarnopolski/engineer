@@ -24,7 +24,7 @@
   "scripts": {
     "precommit": "npm run lint && set CI=true && npm test",
     "lint": "node_modules/.bin/tslint --type-check --project .",
-    "start": "react-scripts-ts build",
+    "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
